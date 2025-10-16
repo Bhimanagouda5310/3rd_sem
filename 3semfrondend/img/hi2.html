@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        
+    }
+    .IMG{
+         background-repeat: no-repeat;
+        background-image: url(/image/plain-smooth-green-wall-texture_53876-129746.jpg);
+        background-size: cover;
+        text-align-last: cover;
+    }
+
+
+</style>
+<body class="IMG">
+    <div class="body">
+
+        <h2 style="color: blue;">Registration form</h2>
+
+        <form >
+            
+            <div>
+                <label for="text">Full Name:<br></label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="text">Date of Birth:</label>
+                <input type="date"><br>
+            </div>
+            <br>
+            <div>
+                <label for="Gender">Gender</label>
+                <select type="gender" name="Gender">
+                <option value="male"> male</option>
+                <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="text">adress:</label><br>
+                <textarea id="text" name="message" rows="4" cols="30" placeholder="entre your adress"></textarea><br><br>
+
+            </div>
+            <br>
+            <div>
+                <label for="text">state:</label><br>
+                <input type="text" name="message" placeholder="entre your state"></textarea><br><br>
+
+            </div>
+            <br>
+            <div>
+            <label for="text">pincode:</label>
+                <input type="password" placeholder="Enter 6-digit pincode">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Mobile Number:</label>
+                <input type="tel" id="phone" name="phone" maxlength="10" placeholder=" Enter 10-digit Number"><br><br>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email id:</label>
+                <input type="email id" placeholder="enter your email">
+               
+            </div>
+            <br>
+             <div>
+                <label for="photo">upload photo:</label>
+                <input type="file" placeholder=" No file chosen">
+               
+            </div>
+           <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>
